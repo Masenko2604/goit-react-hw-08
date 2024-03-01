@@ -1,0 +1,51 @@
+.form {
+  width: 350px; 
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: rgb(133, 235, 237);
+  box-shadow: 10px 10px 18px -2px rgb(8, 89, 71);
+    transition: transform 250ms linear;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.fieldInput {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(201, 246, 246);
+  box-shadow: 10px 10px 18px -2px rgb(7, 80, 64);
+    transition: transform 250ms linear;
+  margin-bottom: 4px
+}
+
+.error {
+  color: red;
+}
+
+.divName {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(201, 246, 246);
+    box-shadow: 10px 10px 18px -2px rgb(7, 80, 64);
+    transition: transform 250ms linear;
+  cursor: pointer;
+  transition: 450ms;
+}
+
+.btn:is(:hover, :focus) {
+  background-color: rgb(11, 92, 92);
+}
