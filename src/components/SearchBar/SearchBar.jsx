@@ -12,7 +12,6 @@ export const SearchBar = () => {
   const onSearch = evt => {
     dispatch(filterNumber(evt.target.value));
   };
-  // console.log(filtData());
 
   return (
     <div className={css.search}>
