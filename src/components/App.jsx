@@ -9,6 +9,7 @@ import { PrivateRoute } from './PrivateRoute';
 import { refreshUser } from '../redux/auth/operation';
 import { selectIsRefreshing } from '../redux/auth/selector';
 import { selectIsLoading } from '../redux/contact/selector';
+const NotFoundPage = lazy(() => import('../pages/NotFoundPage'));
 
 const HomePage = lazy(() => import('../pages/Home/Home'));
 const RegisterPage = lazy(() => import('../pages/Register/Register'));
@@ -46,6 +47,7 @@ export const App = () => {
                 element={<PrivateRoute redirectTo="/login" component={<TasksPage />} />}
               />
             </Route>
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Suspense>
       )}
