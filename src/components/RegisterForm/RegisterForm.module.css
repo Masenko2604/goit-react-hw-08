@@ -9,7 +9,7 @@
   gap: 20px;
   background-color: rgb(13, 214, 217);  
   border-radius: 10px;
-  box-shadow: 10px 10px 18px -2px rgb(5, 87, 91);
+  box-shadow: 10px 10px 18px -2px rgb(5, 50, 53);
     transition: transform 250ms linear;
 }
 
@@ -35,7 +35,7 @@
   border-radius: 10px;
   font-size: 16px;
   background-color: rgb(160, 226, 229);
-  box-shadow: 10px 10px 18px -2px rgb(5, 109, 109);
+  box-shadow: 10px 10px 18px -2px rgb(6, 48, 48);
     transition: transform 250ms linear;
 
   &:focus {
@@ -54,13 +54,13 @@
   background-color: rgb(16, 99, 110);
   color: rgb(255, 255, 255);
   cursor: pointer;
-  box-shadow: 10px 10px 18px -2px rgb(183, 248, 242);
+  box-shadow: 10px 10px 18px -2px rgb(5, 71, 64);
     transition: transform 250ms linear;
 
   &:hover {
     background-color: rgb(160, 226, 229);
-    color: rgb(7, 82, 82);
-    box-shadow: 10px 10px 18px -2px rgb(7, 98, 98);
+    color: rgb(8, 70, 70);
+    box-shadow: 10px 10px 18px -2px rgb(6, 61, 61);
       transition: transform 250ms linear;
   }
 }
