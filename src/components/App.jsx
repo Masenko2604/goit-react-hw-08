@@ -14,7 +14,7 @@ const NotFoundPage = lazy(() => import('../pages/NotFoundPage'));
 const HomePage = lazy(() => import('../pages/Home/Home'));
 const RegisterPage = lazy(() => import('../pages/Register/Register'));
 const LoginPage = lazy(() => import('../pages/Login/Login'));
-const TasksPage = lazy(() => import('../pages/Tasks/Tasks'));
+const ContactsPage = lazy(() => import('../pages/Tasks/Tasks'));
 export const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -43,8 +43,8 @@ export const App = () => {
                 element={<RestrictedRoute redirectTo="/tasks" component={<RegisterPage />} />}
               />
               <Route
-                path="/tasks"
-                element={<PrivateRoute redirectTo="/login" component={<TasksPage />} />}
+                path="/contacts"
+                element={<PrivateRoute redirectTo="/login" component={<ContactsPage />} />}
               />
             </Route>
             <Route path="*" element={<NotFoundPage />} />
