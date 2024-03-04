@@ -7,7 +7,7 @@ import * as Yup from 'yup';
 
 import { useId } from 'react';
 import { useDispatch } from 'react-redux';
-import { addContacts } from '../../redux/contact/operation';
+import { addContacts } from '../../redux/FilterContacts/operation';
 
 const FeedbackSchema = Yup.object().shape({
   name: Yup.string().min(3, 'Too Short!').max(50, 'Too Long!').required('Required name'),

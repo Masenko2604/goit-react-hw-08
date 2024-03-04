@@ -6,9 +6,9 @@ import { Layuot } from './Layout';
 import { Suspense } from 'react';
 import { RestrictedRoute } from './RestrictedRoute';
 import { PrivateRoute } from './PrivateRoute';
-import { refreshUser } from '../redux/auth/operation';
-import { selectIsRefreshing } from '../redux/auth/selector';
-import { selectIsLoading } from '../redux/contact/selector';
+import { refreshUser } from '../redux/Numbers/operationNumber';
+import { selectIsRefreshing } from '../redux/selector';
+import { selectIsLoading } from '../redux/';
 const NotFoundPage = lazy(() => import('../pages/NotFoundPage'));
 
 const HomePage = lazy(() => import('../pages/Home/Home'));

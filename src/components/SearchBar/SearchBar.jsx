@@ -2,8 +2,8 @@ import { useId } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import css from './SearchBar.module.css';
-import { filterNumber } from '../../redux/contact/filter';
-import { selectFilter } from '../../redux/contact/selector';
+import { filterNumber } from '../../redux/FilterContacts/filterSlice';
+import { selectFilter } from '../../redux/FilterContacts/selector';
 export const SearchBar = () => {
   const id = useId();
   const dispatch = useDispatch();

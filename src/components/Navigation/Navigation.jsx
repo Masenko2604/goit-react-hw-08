@@ -3,7 +3,7 @@ import css from './Navigation.module.css';
 
 import clsx from 'clsx';
 import { useSelector } from 'react-redux';
-import { selectIsLoggedIn } from '../../redux/auth/selector';
+import { selectIsLoggedIn } from '../../redux/selector';
 
 export const Navigation = () => {
   const isActive = ({ isActive }) => {

@@ -6,7 +6,7 @@ import css from './LoginForm.module.css';
 
 import * as Yup from 'yup';
 import { useDispatch } from 'react-redux';
-import { login } from '../../redux/auth/operation';
+import { login } from '../../redux/Numbers/operationNumber';
 const initialValues = {
   email: '',
   password: '',

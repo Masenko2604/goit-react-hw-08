@@ -3,7 +3,7 @@ import { ConctactForm } from '../../components/ContactForm/ContactForm';
 import { ContactList } from '../../components/ContactList/ContactList';
 import { SearchBar } from '../../components/SearchBar/SearchBar';
 import { useEffect } from 'react';
-import { getContacts } from '../../redux/contact/operation';
+import { getContacts } from '../../redux/FilterContacts/operation';
 
 const Tasks = () => {
   const dispatch = useDispatch();
