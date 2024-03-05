@@ -6,15 +6,15 @@ import { Layuot } from './Layout';
 import { Suspense } from 'react';
 import { RestrictedRoute } from './RestrictedRoute';
 import { PrivateRoute } from './PrivateRoute';
-import { refreshUser } from '../redux/Numbers/operationNumber';
-import { selectIsRefreshing } from '../redux/selector';
-import { selectIsLoading } from '../redux/';
+import { refreshUser } from '../redux/contact/operation';
+import { selectIsRefreshing } from '../redux/auth/selector';
+import { selectIsLoading } from '../redux/contact/selector';
 const NotFoundPage = lazy(() => import('../pages/NotFoundPage'));
 
 const HomePage = lazy(() => import('../pages/Home/Home'));
 const RegisterPage = lazy(() => import('../pages/Register/Register'));
 const LoginPage = lazy(() => import('../pages/Login/Login'));
-const ContactsPage = lazy(() => import('../pages/Tasks/Tasks'));
+const ContactsPage = lazy(() => import('../pages/Contacts/ContactsPage'));
 export const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -36,11 +36,11 @@ export const App = () => {
               <Route index element={<HomePage />} />
               <Route
                 path="/login"
-                element={<RestrictedRoute redirectTo="/tasks" component={<LoginPage />} />}
+                element={<RestrictedRoute redirectTo="/contacts" component={<LoginPage />} />}
               />
               <Route
                 path="/register"
-                element={<RestrictedRoute redirectTo="/tasks" component={<RegisterPage />} />}
+                element={<RestrictedRoute redirectTo="/contacts" component={<RegisterPage />} />}
               />
               <Route
                 path="/contacts"

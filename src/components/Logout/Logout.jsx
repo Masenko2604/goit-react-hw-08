@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import css from './Logout.module.css';
-import { logout } from '../../redux/Numbers/operationNumber';
-import { selectIsToken } from '../../redux/selector';
+import { logout } from '../../redux/auth/operations';
+import { selectIsToken } from '../../redux/auth/selector';
 export const Logout = () => {
   const dispatch = useDispatch();
 

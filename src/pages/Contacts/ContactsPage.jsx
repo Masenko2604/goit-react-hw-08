@@ -5,7 +5,7 @@ import { SearchBar } from '../../components/SearchBar/SearchBar';
 import { useEffect } from 'react';
 import { getContacts } from '../../redux/FilterContacts/operation';
 
-const Tasks = () => {
+const Contacts = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -20,4 +20,4 @@ const Tasks = () => {
     </main>
   );
 };
-export default Tasks;
+export default Contacts;

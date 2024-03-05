@@ -6,7 +6,7 @@ import css from './RegisterForm.module.css';
 
 import * as Yup from 'yup';
 import { useDispatch } from 'react-redux';
-import { register } from '../../redux/Numbers/operationNumber';
+import { register } from '../../redux/auth/operations';
 const initialValues = {
   name: '',
   email: '',

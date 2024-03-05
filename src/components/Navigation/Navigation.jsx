@@ -3,7 +3,7 @@ import css from './Navigation.module.css';
 
 import clsx from 'clsx';
 import { useSelector } from 'react-redux';
-import { selectIsLoggedIn } from '../../redux/selector';
+import { selectIsLoggedIn } from '../../redux/auth/selector';
 
 export const Navigation = () => {
   const isActive = ({ isActive }) => {
@@ -16,7 +16,7 @@ export const Navigation = () => {
         Home
       </NavLink>
       {isLoggin && (
-        <NavLink to="/tasks" className={isActive}>
+        <NavLink to="/contacts" className={isActive}>
           Contacts
         </NavLink>
       )}
