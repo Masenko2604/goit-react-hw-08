@@ -13,7 +13,7 @@ import {
   REGISTER,
 } from "redux-persist";
 
-import { authReducer } from "./auth/slice";
+import { authReducer } from "./contact/slice";
 import { contactReducer } from "./contact/slice";
 import { filterReducer } from "./contact/filter";
 

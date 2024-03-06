@@ -7,7 +7,7 @@ import { Suspense } from 'react';
 import { RestrictedRoute } from './RestrictedRoute';
 import { PrivateRoute } from './PrivateRoute';
 import { refreshUser } from '../redux/contact/operation';
-import { selectIsRefreshing } from '../redux/auth/selector';
+import { selectIsRefreshing } from '../redux/auth/selectors';
 import { selectIsLoading } from '../redux/contact/selector';
 const NotFoundPage = lazy(() => import('../pages/NotFoundPage'));
 
