@@ -1,6 +1,6 @@
 import styled from './Contact.module.css';
 // import userIcon from '../../../assets/person-fill.svg';
-import telIcon from '../../../assets/telephone-fill.svg';
+// import telIcon from '../../../assets/telephone-fill.svg';
 import { useDispatch } from 'react-redux';
 import { deleteContact } from '../../../redux/contacts/operations';
 
@@ -14,7 +14,7 @@ export const Contact = ({ name, number, contactId }) => {
           <span className={styled.info}>{name}</span>
         </h2>
         <a href={`tel:${number}`}>
-          <img src={telIcon} alt="phone" />
+          {/* <img src={telIcon} alt="phone" /> */}
           <span className={styled.info}>{number}</span>
         </a>
       </div>
