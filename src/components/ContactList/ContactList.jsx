@@ -1,21 +1,22 @@
+import { selectVisibleContacts } from '../../redux/contacts/selectors';
+import { Contact } from './Contact/Contact';
+import styled from './ContactList.module.css';
 import { useSelector } from 'react-redux';
 
-import { Contact } from '../Contact/Contact';
-
-import css from './ContactList.module.css';
-import { filtData } from '../../redux/FilterContacts/selector';
-
 export const ContactList = () => {
-  const dataContact = useSelector(filtData);
+  const contacts = useSelector(selectVisibleContacts);
+
   return (
-    <ul className={css.list}>
-      {dataContact.length > 0 ? (
-        dataContact.map(data => {
-          return <Contact key={data.id} dataContact={data} />;
-        })
-      ) : (
-        <li>You have not added any contacts</li>
-      )}
-    </ul>
+    <div>
+      <ul className={styled.ul}>
+        {contacts.map(contact => (
+          <li key={contact.id} className={styled.contact}>
+            <div>
+              <Contact name={contact.name} number={contact.number} contactId={contact.id} />
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 };
