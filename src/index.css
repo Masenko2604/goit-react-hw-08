@@ -1,8 +1,16 @@
 body {
-  font-family: sans-serif;
-  line-height: 1.5;
-  height: 100vh;
-  background-color: rgb(193, 237, 235);
+  margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(181, 239, 229, 0.1),
+        rgba(181, 239, 229, 0.1)), url(../src/images/phon.jpg);
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1,
