@@ -1,9 +1,13 @@
 .form {
   width: 320px;
+  background-color: rgb(95, 224, 224);
+  margin-top: 16px;
+  border-radius: 5px;
 }
 
 .label {
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
+  border-radius: 10px;
 }
