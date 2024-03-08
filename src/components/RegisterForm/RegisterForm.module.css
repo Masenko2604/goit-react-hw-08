@@ -10,7 +10,7 @@
   background-color: rgb(13, 214, 217);  
   border-radius: 10px;
   box-shadow: 10px 10px 18px -2px rgb(5, 50, 53);
-    transition: transform 250ms linear;
+    
 }
 
 .label {
@@ -20,23 +20,25 @@
   font-size: 14px;
   margin-bottom: 5px;
   border-radius: 10px;
+  background-color: rgb(153, 228, 229);    
+  box-shadow: 10px 10px 18px -2px rgb(5, 50, 53);
 }
 
-.title {
+/* .title {
   font-size: 30px;
   font-weight: 700;
-  margin-bottom: 20px;
-  text-align: center;
-}
+  margin-top: 20px;
+ 
+} */
 
 .input {
   padding: 12px;
-  width: 300px;  
+  width: 320px;  
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 14px;
   background-color: rgb(160, 226, 229);
   box-shadow: 10px 10px 18px -2px rgb(6, 48, 48);
-    transition: transform 250ms linear;
+   
 
   &:focus {
     outline: none;
@@ -47,7 +49,7 @@
 .btn {
   margin-top: 15px;
   padding: 12px;
-  width: 140px;
+  width: 120px;
   border: none;
   border-radius: 10px;
   font-size: 16px;
@@ -55,7 +57,7 @@
   color: rgb(255, 255, 255);
   cursor: pointer;
   box-shadow: 10px 10px 18px -2px rgb(5, 71, 64);
-    transition: transform 250ms linear;
+}
 
   &:hover {
     background-color: rgb(160, 226, 229);
@@ -63,19 +65,25 @@
     box-shadow: 10px 10px 18px -2px rgb(6, 61, 61);
       transition: transform 250ms linear;
   }
-}
+
 
 .field {
   display: flex;
   flex-direction: column;
 }
 
-.form {
-  width: 320px;
-}
 
-.label {
+  /* .form {
+      width: 320px;
+      background-color: rgb(95, 224, 224);
+      margin-top: 16px;
+      border-radius: 10px;
+      box-shadow: 10px 10px 18px -2px rgb(7, 82, 82);
+    } */
+
+
+/* .label {
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
-}
+} */
