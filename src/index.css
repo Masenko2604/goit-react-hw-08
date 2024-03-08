@@ -30,6 +30,12 @@ ol {
   padding: 0;
   list-style: none;
 }
+.btn {
+  border-radius: 10px;
+}
+.lable {
+  border-radius: 10px;
+}
 
 img {
   display: block;
