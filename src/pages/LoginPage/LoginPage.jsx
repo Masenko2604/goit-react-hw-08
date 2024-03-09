@@ -1,4 +1,4 @@
-import { LoginForm } from '../../redux/auth/operations';
+import { LoginForm } from '../../pages/LoginPage/';
 import { DocTitle } from '../../components/DocTitle';
 
 export default function LoginPage() {
