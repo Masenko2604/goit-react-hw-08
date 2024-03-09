@@ -12,6 +12,11 @@ export default function HomePage() {
         </div>
         <p className={css.text}></p>
       </div>
+      <>
+        <div>
+          <h1>Welcome to contact storage app!</h1>
+        </div>
+      </>
     </>
   );
 }
