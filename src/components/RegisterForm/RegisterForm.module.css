@@ -11,33 +11,7 @@ background-image: linear-gradient(rgba(181, 239, 229, 0.1),
       rgba(181, 239, 229, 0.1)), url(../src/images/phon.jpg);
 }
 
-/* .background {
-  max-width: 430px;
-  height: 520px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
-}
 
-.background .shape {
-  height: 200px;
-  width: 200px;
-  position: absolute;
-  border-radius: 50%;
-} */
-
-/* .shape:first-child {
-  background: linear-gradient(#fa3008, #f48f03);
-  left: -300px;
-  top: -80px;
-}
-
-.shape:last-child {
-  background: linear-gradient(to right, #ff512f, #f09819);
-  right: -100px;
-  bottom: -80px;
-} */
 
 .form {
   height: 520px;

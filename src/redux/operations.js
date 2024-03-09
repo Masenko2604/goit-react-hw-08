@@ -53,9 +53,7 @@ export const changeContact = createAsyncThunk(
     try {
       console.log(contact.values);
       const { name, number } = contact.values;
-      // const contacts = contact.contacts;
-      // console.log(contact.contacts);
-
+      
       const response = await axios.patch(`/contacts/${contact.id}`, {
         name: name,
         number: number,

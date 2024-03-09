@@ -6,7 +6,7 @@ import { selectLoading, selectVisibleContacts } from '../../redux/selectors';
 
 export const ContactList = ({ handleScroll }) => {
   const loading = useSelector(selectLoading);
-  // const error = useSelector(selectError);
+
   const visibleContacts = useSelector(selectVisibleContacts);
 
   return (
@@ -24,7 +24,7 @@ export const ContactList = ({ handleScroll }) => {
           />
         </div>
       )}
-      {/* {error && <p className={css.error}>{error}</p>} */}
+      {}
       <ul>
         {visibleContacts.map(contact => {
           return (

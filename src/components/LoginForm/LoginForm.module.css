@@ -6,9 +6,6 @@
   box-sizing: border-box;
 }
 
-/* body {
-  background-color: #242424;
-} */
 
 .form {
   height: 520px;
@@ -91,14 +88,11 @@
   width: 150px;
   border-radius: 3px;
   padding: 5px 10px 10px 5px;
-  /* background-color: rgba(255, 255, 255, 0.27); */
   color: #eaf0fb;
   text-align: center;
 }
 
-/* .social div:hover {
-  background-color: rgba(255, 255, 255, 0.47);
-} */
+
 
 .social .fb {
   margin-left: 25px;
@@ -112,23 +106,11 @@
   color: #ff512f;
 }
 
-@media only screen and (min-width: 1280px) {
-  /* .shape:first-child {
-    background: linear-gradient(#fa3008, #f48f03);
-    left: -300px;
-    top: -80px; */
-  }
 
-  /* .shape:last-child {
-    background: linear-gradient(to right, #ff512f, #f09819);
-    right: -241px;
-    bottom: -80px;
-  } */
 
   .form {
     height: 520px;
     width: 400px;
-    /* background-color: rgba(255, 255, 255, 0.13); */
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -144,8 +126,7 @@
 @media only screen and (min-width: 767.98px) {
   .form {
     height: 520px;
-    width: 400px;
-    /* background-color: rgba(255, 255, 255, 0.13); */
+    width: 400px;  
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -157,11 +138,7 @@
     padding: 50px 35px;
   }
 
-  /* .shape:first-child {
-    background: linear-gradient(#fa3008, #f48f03);
-    left: -300px;
-    top: -24px;
-  } */
+  
 }
 
 
