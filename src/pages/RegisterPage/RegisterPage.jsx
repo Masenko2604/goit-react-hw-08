@@ -1,4 +1,4 @@
-import { RegisterForm } from '../../pages/ContactsPage/ContactsPage';
+import { RegisterForm } from '../../pages/RegisterPage/RegisterPage';
 import { DocTitle } from '../../components/DocTitle';
 
 export default function RegisterPage() {
