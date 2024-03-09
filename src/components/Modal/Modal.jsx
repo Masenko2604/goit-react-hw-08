@@ -1,5 +1,5 @@
 import Modal from 'react-modal';
-import css from './modal.module.css';
+import css from './Modal.module.css';
 import { deleteContact } from '../../redux/operations';
 
 import { useDispatch } from 'react-redux';
