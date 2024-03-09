@@ -1,4 +1,4 @@
-import { RegisterForm } from '../../redux/auth/operations';
+import { RegisterForm } from '../../pages/ContactsPage/ContactsPage';
 import { DocTitle } from '../../components/DocTitle';
 
 export default function RegisterPage() {
