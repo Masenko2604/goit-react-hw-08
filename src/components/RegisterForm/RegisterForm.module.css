@@ -7,10 +7,11 @@
 }
 
 body {
-  background-color: #242424;
+background-image: linear-gradient(rgba(181, 239, 229, 0.1),
+      rgba(181, 239, 229, 0.1)), url(../src/images/phon.jpg);
 }
 
-.background {
+/* .background {
   max-width: 430px;
   height: 520px;
   position: absolute;
@@ -24,9 +25,9 @@ body {
   width: 200px;
   position: absolute;
   border-radius: 50%;
-}
+} */
 
-.shape:first-child {
+/* .shape:first-child {
   background: linear-gradient(#fa3008, #f48f03);
   left: -300px;
   top: -80px;
@@ -36,19 +37,19 @@ body {
   background: linear-gradient(to right, #ff512f, #f09819);
   right: -100px;
   bottom: -80px;
-}
+} */
 
 .form {
   height: 520px;
   width: 400px;
-  background-color: rgba(255, 255, 255, 0.13);
+  background-color: rgba(179, 225, 230, 0.13);
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   border-radius: 10px;
   backdrop-filter: blur(10px);
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(8, 79, 87, 0.1);
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
   padding: 50px 35px;
   margin-top: 40px;
@@ -56,7 +57,7 @@ body {
 
 .form * {
   font-family: "Poppins", sans-serif;
-  color: #ffffff;
+  color: #055466;
   letter-spacing: 0.5px;
   outline: none;
   border: none;
@@ -74,34 +75,35 @@ body {
   margin-top: 30px;
   font-size: 16px;
   font-weight: 500;
+  color: #0c484f;
+  box-shadow: 0 0 40px rgba(3, 83, 91, 0.6);
 }
 
 .input {
   display: block;
   height: 50px;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.07);
+  width: 100%;  
   border-radius: 3px;
   padding: 0 10px;
   margin-top: 8px;
   font-size: 14px;
   font-weight: 300;
+  color: #0c484f;
+  box-shadow: 0 0 40px rgba(3, 83, 91, 0.6);
 }
 
-::placeholder {
-  color: #e5e5e5;
-}
 
 .button {
   margin-top: 50px;
   width: 100%;
-  background-color: #ffffff;
-  color: #080710;
+  background-color: rgb(129, 246, 252);
+  color: #0d474f;
   padding: 15px 0;
   font-size: 18px;
   font-weight: 600;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
+  box-shadow: 0 0 40px rgba(3, 83, 91, 0.6);
 }
 
 .social {
@@ -120,7 +122,7 @@ body {
 }
 
 .social div:hover {
-  background-color: rgba(255, 255, 255, 0.47);
+  background-color: rgba(152, 189, 209, 0.47);
 }
 
 .social .fb {
@@ -150,33 +152,23 @@ body {
     box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
     padding: 50px 35px;
   }
-
-  .shape:first-child {
-    background: linear-gradient(#fa3008, #f48f03);
-    left: -300px;
-    top: -3px;
-  }
 }
 
+ 
 @media only screen and (min-width: 767.98px) {
   .form {
     height: 520px;
     width: 400px;
     background-color: rgba(255, 255, 255, 0.13);
     position: absolute;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     top: 50%;
     left: 50%;
     border-radius: 10px;
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(8, 87, 87, 0.1);
     box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
     padding: 50px 35px;
   }
-
-  .shape:first-child {
-    background: linear-gradient(#fa3008, #f48f03);
-    left: -300px;
-    top: -24px;
-  }
+  
 }
