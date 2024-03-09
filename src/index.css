@@ -1,52 +1,58 @@
-html {
+body {
   margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    min-width: 320px;
-    min-height: 100vh;
-    background-image: linear-gradient(rgba(181, 239, 229, 0.1),
-        rgba(181, 239, 229, 0.1)), url(../src/images/phon.jpg);
-    max-width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(181, 239, 229, 0.1),
+        rgba(181, 239, 229, 0.1)), url(../src/images/phon.jpg);   
+  display: flex;
+  justify-content: center;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  color: rgb(2, 77, 74);
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: rgb(253, 252, 250);
+  box-shadow: 0 6px 8px rgb(231, 231, 229), 0 -2px 1px rgb(228, 227, 224);
+  display: flex;
+  justify-content: center;
 }
 
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.btn {
-  border-radius: 10px;
-}
-.lable {
-  border-radius: 10px;
-}
-
-img {
-  display: block;
-  max-width: 100%;
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgb(255, 255, 255);
+  transition: border-color 0.25s;
+  box-shadow: 0 6px 8px rgb(248, 223, 178), 0 -2px 1px rgb(248, 224, 180);
 }
 
-a {
-  text-decoration: none;
-  color: #024d4a;
+button:hover {
+  border-color: rgb(205, 179, 139);
 }
 
-main {
-  padding: 40px 20px;
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+  
+    
+   
+

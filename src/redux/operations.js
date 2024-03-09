@@ -2,21 +2,19 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 axios.defaults.baseURL = "https://connections-api.herokuapp.com";
-
-export const fetchContacts = createAsyncThunk(
-  "contact/fetchAll",
+export const FetchContacts = createAsyncThunk(
+  "contacts/fetch",
   async (_, thunkAPI) => {
     try {
       const response = await axios.get("/contacts");
       return response.data;
     } catch (error) {
-      return thunkAPI.rejectWithValue(error);
+      return thunkAPI.rejectWithValue(error.message);
     }
   }
 );
-
-export const deleteFromList = createAsyncThunk(
-  "contact/deleteContact",
+export const deleteContact = createAsyncThunk(
+  "contacts/delete",
   async (id, thunkAPI) => {
     try {
       const response = await axios.delete(`/contacts/${id}`);
@@ -26,26 +24,22 @@ export const deleteFromList = createAsyncThunk(
     }
   }
 );
-
-export const addToList = createAsyncThunk(
-  "contact/addContact",
+export const addContact = createAsyncThunk(
+  "contacts/add",
   async (contact, thunkAPI) => {
     try {
-      const response = await axios.post(`/contacts`, contact);
-      return response.data;
-    } catch (error) {
-      return thunkAPI.rejectWithValue(error.message);
-    }
-  }
-);
+      const { name, number } = contact.values;
+      const contacts = contact.contacts;
 
-export const changeContact = createAsyncThunk(
-  "contact/changeContact",
-  async (contact, thunkAPI) => {
-    try {
-      const response = await axios.patch(`/contacts/${contact.id}`, {
-        name: contact.name,
-        number: contact.number,
+      const match = contacts.filter(
+        (item) => item.name === name && item.phone === number
+      );
+      if (match.length > 0) {
+        return thunkAPI.rejectWithValue("Contact already exists");
+      }
+      const response = await axios.post(`/contacts/`, {
+        name: name,
+        number: number,
       });
       return response.data;
     } catch (error) {
@@ -53,4 +47,23 @@ export const changeContact = createAsyncThunk(
     }
   }
 );
+export const changeContact = createAsyncThunk(
+  "contacts/change",
+  async (contact, thunkAPI) => {
+    try {
+      console.log(contact.values);
+      const { name, number } = contact.values;
+      // const contacts = contact.contacts;
+      // console.log(contact.contacts);
 
+      const response = await axios.patch(`/contacts/${contact.id}`, {
+        name: name,
+        number: number,
+      });
+      console.log("response", response);
+      return response.data;
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error.message);
+    }
+  }
+);

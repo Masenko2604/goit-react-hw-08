@@ -1,14 +1,14 @@
-.ul {
-  gap: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 0;
+.list {
+  margin-bottom: 10px;
 }
 
-.contact {
-  min-width: 320px;  
-  border-radius: 10px;
-  padding: 10px;
+.colorRingWrapperBox {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  margin-top: 20px;
+  text-align: center;
 }
 
