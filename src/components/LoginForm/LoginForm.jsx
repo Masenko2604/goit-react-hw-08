@@ -6,7 +6,7 @@ import * as Yup from 'yup';
 import { useId } from 'react';
 import toast from 'react-hot-toast';
 
-export const LoginPage = () => {
+export const LoginForm = () => {
   const dispatch = useDispatch();
 
   const contactSchema = Yup.object().shape({

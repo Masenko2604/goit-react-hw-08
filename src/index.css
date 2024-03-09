@@ -26,11 +26,12 @@ button {
   font-family: inherit;
   background-color: rgb(255, 255, 255);
   transition: border-color 0.25s;
-  box-shadow: 0 6px 8px rgb(248, 223, 178), 0 -2px 1px rgb(248, 224, 180);
+  box-shadow: 0 6px 8px rgb(2, 70, 78), 0 -2px 1px rgb(2, 45, 59);
 }
 
 button:hover {
-  border-color: rgb(205, 179, 139);
+  border-color: rgb(16, 64, 98);
+  color: rgb(216, 244, 244);
 }
 
 button:focus,

@@ -1,4 +1,4 @@
-import { LoginForm } from '../../pages/LoginPage/LoginPage';
+import { LoginForm } from '../../components/LoginForm/LoginForm';
 import { DocTitle } from '../../components/DocTitle';
 
 export default function LoginPage() {
