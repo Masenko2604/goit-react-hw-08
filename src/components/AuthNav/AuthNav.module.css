@@ -1,11 +1,23 @@
-.link {
+ .link {
   display: inline-block;
   text-decoration: none;
   padding: 12px;
   font-weight: 700;
-  color: #0d6060;
-}
+  color: #3c1c07;
+  
+} 
 
 .link.active {
   color: #e84a5f;
+} 
+
+
+.linkRegister {
+  display: inline-block;
+  text-decoration: none;
+  border-right: 1px solid;
+  padding: 12px;
+  font-weight: 700;
+ 
 }
+

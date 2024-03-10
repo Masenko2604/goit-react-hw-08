@@ -1,13 +1,19 @@
-body {
+.body {
   margin: 0;
   width: 100%;
-  min-height: 100vh;
-  background-image: linear-gradient(rgba(76, 190, 236, 0.1), rgba(76, 190, 236, 0.1)),
+  background-image: linear-gradient(rgba(181, 239, 229, 0.1), rgba(181, 239, 229, 0.1)),
     url(../src/images/phon.jpg);
-  display: flex;
-  justify-content: center;
 }
 
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: rgb(10, 70, 81);  
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+ 
+}
 
 .text {
   margin: 0 auto;
@@ -16,12 +22,6 @@ body {
   font-size: 20px;
   margin-top: 20px;
 }
-.h1 {
-  color: rgb(10, 70, 81);
-}
-
-
-
 @media only screen and (min-width: 320px) {
   .text {
     padding-left: 6px;
