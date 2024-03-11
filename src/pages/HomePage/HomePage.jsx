@@ -1,4 +1,4 @@
-import { GiRotaryPhone } from 'react-icons/gi';
+// import { GiRotaryPhone } from 'react-icons/gi';
 import css from './HomePage.module.css';
 import { DocTitle } from '../../components/DocTitle';
 
@@ -7,9 +7,9 @@ export default function HomePage() {
     <>
       <DocTitle>Home</DocTitle>
       <div className="context">
-        <div className={css.phone}>
+        {/* <div className={css.phone}>
           <GiRotaryPhone size={150} />
-        </div>
+        </div> */}
         <p className={css.text}></p>
       </div>
       <>
