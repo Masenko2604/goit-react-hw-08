@@ -1,8 +1,16 @@
 body {
-  margin: 0;
-  width: 100%; 
-  background-image: linear-gradient(rgba(181, 239, 229, 0.1), rgba(181, 239, 229, 0.1)), 
-  url(../src/images/phon.jpg);
+margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(181, 239, 229, 0.1),
+      rgba(181, 239, 229, 0.1)), url(../src/images/phon.jpg);
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1 {
   font-size: 3.2em;
@@ -12,6 +20,9 @@ h1 {
   display: flex;
   justify-content: center;
   
+}
+.label {
+background-color: rgb(255, 255, 255);
 }
 
 button {

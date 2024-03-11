@@ -1,6 +1,6 @@
 .form * {
   font-family: 'Poppins', sans-serif;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   letter-spacing: 0.5px;
   outline: none;
   border: none;
@@ -30,13 +30,12 @@
   margin-top: 40px;
   background: linear-gradient(141.22deg, #f4cd6a 9.4%, #f67558 91.91%);
 }
-
 .label {
   display: block;
   margin-top: 30px;
   font-size: 16px;
   font-weight: 500;
-}
+}  
 
 .input {
   display: block;
@@ -47,7 +46,7 @@
   margin-top: 8px;
   font-size: 14px;
   font-weight: 300;
-  color: rgb(246, 225, 215);
+  color: rgb(255, 255, 255);
   box-shadow: 0 0 40px rgb(119, 43, 3);
 }
 
@@ -62,7 +61,6 @@
   cursor: pointer;
   box-shadow: 0 0 40px rgb(69, 26, 2);
 }
-
 .social {
   margin-top: 30px;
   display: flex;
@@ -73,7 +71,7 @@
   width: 150px;
   border-radius: 3px;
   padding: 5px 10px 10px 5px;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -98,7 +96,7 @@
     top: 50%;
     left: 50%;
     border-radius: 10px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);   
     box-shadow: 0 0 40px #652901;
     padding: 50px 35px;
     background: linear-gradient(141.22deg, #f4cd6a 9.4%, #f67558 91.91%);

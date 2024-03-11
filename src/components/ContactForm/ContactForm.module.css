@@ -1,12 +1,10 @@
-.form {
+/* .form {
   display: flex;
   flex-direction: column;
   max-width: 300vw; 
   margin: auto;
   margin-bottom: 20px;
-   /* background-color: rgb(228, 180, 164);
-  box-shadow: 10px 10px 18px -2px rgb(179, 89, 4); 
-   */
+   
 }
 
 .input {
@@ -25,4 +23,61 @@
 .err {
   color: rgb(205, 78, 78);
   font-size: 13px;
+} */
+.form {
+  width: 350px;
+  border: 2px solid black;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.fieldInput {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(89, 87, 85);
+  margin-bottom: 4px;
+  color: rgb(255, 255, 255);
+
+
+}
+
+.error {
+  color: red;
+}
+
+.divName {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+
+
+}
+
+.field {
+  margin-bottom: 10px;
+
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 450ms;
+  background-color: rgb(89, 87, 85);
+  box-shadow: 0 6px 8px rgb(231, 231, 229), 0 -2px 1px rgb(228, 227, 224);
+}
+
+.btn:is(:hover, :focus) {
+  background-color: rgb(255, 255, 255);
+  color: rgb(84, 51, 8);
 }
