@@ -1,14 +1,16 @@
 .body {
   margin: 0;
   width: 100%;
-  background-image: linear-gradient(rgba(181, 239, 229, 0.1), rgba(181, 239, 229, 0.1)),
-    url(../src/images/phon.jpg);
+  /* background-image: linear-gradient(rgba(181, 239, 229, 0.1), rgba(181, 239, 229, 0.1)),
+    url(../src/images/phon.jpg); */
+    background: linear-gradient(141.22deg, #ffc226 9.4%, #f84119 91.91%);
+      text-shadow: 0 0.4px 0.4px #fff;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  color: rgb(10, 70, 81);  
+  color: rgb(8, 20, 22);  
   display: flex;
   justify-content: center;
   margin: 0%;
