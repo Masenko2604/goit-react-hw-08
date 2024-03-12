@@ -13,12 +13,11 @@ body {
   background-size: cover;
 }
 h1 {
-  font-size: 3.2em;
+  font-size: 2em;
   line-height: 1.1;
   color: rgb(253, 252, 250);
-  box-shadow: 0 6px 8px rgb(231, 231, 229), 0 -2px 1px rgb(228, 227, 224);
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .label {
   background-color: rgb(255, 255, 255);

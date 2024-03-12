@@ -7,12 +7,15 @@
 }
 
 h1 {
-  font-size: 2.4em;
+  font-size: 2em;
   line-height: 1.1;
-  color: rgb(8, 20, 22);
+  color: rgb(6, 41, 47);
   display: flex;
   /* justify-content: center; */
   margin: 0%;
+}
+h2 {
+  color: ;
 }
 
 .text {
