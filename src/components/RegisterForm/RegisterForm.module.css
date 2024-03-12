@@ -17,11 +17,11 @@
 
 
 .form {
-  height: 480px;
-  width: 400px;
+  height: 420px;
+  width: 300px;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 30%;
   left: 50%;
   border-radius: 10px;
   backdrop-filter: blur(10px);
@@ -36,13 +36,13 @@
   display: block;
   margin-top: 30px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 250;
 }
 
 .input {
   display: block;
   height: 50px;
-  width: 100%;
+  width: 220px;
   border-radius: 3px;
   padding: 0 10px;
   margin-top: 8px;
@@ -53,8 +53,8 @@
 }
 
 .button {
-  margin-top: 50px;
-  width: 100%;
+  margin-top: 80px;
+  width: 220px;
   color: rgb(5, 54, 55);
   padding: 15px 0;
   font-size: 18px;
@@ -92,17 +92,17 @@
 
 @media only screen and (min-width: 767.98px) {
   .form {
-    padding-top: 20px;
-    height: 480px;
-    width: 400px;
+    
+    height: 420px;
+    width: 300px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
     border-radius: 10px;
     backdrop-filter: blur(10px);
-    box-shadow: 0 0 40px #652901;
-    padding: 50px 35px;
+    box-shadow: 0 0 40px #02474e;
+    padding: 10px 35px;
     background: linear-gradient(141.22deg, #a4f0f4 9.4%, #038faf 91.91%);
     text-shadow: 0 0.4px 0.4px #fff;
     box-shadow: 0 0 40px rgb(2, 70, 69);
