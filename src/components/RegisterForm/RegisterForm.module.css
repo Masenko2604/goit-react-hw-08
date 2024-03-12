@@ -94,17 +94,16 @@
 @media only screen and (min-width: 767.98px) {
   .form {
     
-    height: 420px;
-    width: 360px;
+    height: 400px;
+    width: 320px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 60%;
-    left: 30%;
+    left: 20%;
     border-radius: 10px;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 40px #02474e;
+    backdrop-filter: blur(10px);    
     padding: 10px 35px;
-    background: linear-gradient(141.22deg, #a4f0f4 9.4%, #038faf 91.91%);
+    background: linear-gradient(141.22deg, #a4f0f4 9.4%, #046277 91.91%);
     text-shadow: 0 0.4px 0.4px #fff;
     box-shadow: 0 0 40px rgb(2, 70, 69);
   }
