@@ -9,13 +9,13 @@
 h1 {
   font-size: 2em;
   line-height: 1.1;
-  color: rgb(6, 41, 47);
+  color: rgb(7, 65, 75);
   display: flex;
   /* justify-content: center; */
   margin: 0%;
 }
 h2 {
-  color: ;
+  font-size: 1em;
 }
 
 .text {
