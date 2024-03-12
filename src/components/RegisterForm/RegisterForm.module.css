@@ -99,7 +99,7 @@
     width: 320px;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 60%;
     left: 20%;
     border-radius: 10px;
     backdrop-filter: blur(10px);    
