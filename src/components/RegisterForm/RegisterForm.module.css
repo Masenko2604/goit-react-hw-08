@@ -94,12 +94,12 @@
 @media only screen and (min-width: 767.98px) {
   .form {
     
-    height: 460px;
-    width: 400px;
+    height: 420px;
+    width: 360px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 60%;
-    left: 20%;
+    left: 30%;
     border-radius: 10px;
     backdrop-filter: blur(10px);
     box-shadow: 0 0 40px #02474e;
