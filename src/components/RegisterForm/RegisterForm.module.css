@@ -92,6 +92,7 @@
 
 @media only screen and (min-width: 767.98px) {
   .form {
+    padding-top: 20px;
     height: 480px;
     width: 400px;
     position: absolute;
