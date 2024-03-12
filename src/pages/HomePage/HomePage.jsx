@@ -1,4 +1,3 @@
-// import { GiRotaryPhone } from 'react-icons/gi';
 import css from './HomePage.module.css';
 import { DocTitle } from '../../components/DocTitle';
 

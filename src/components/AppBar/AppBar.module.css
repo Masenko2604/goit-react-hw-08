@@ -1,18 +1,13 @@
 .header {
   display: flex;
   justify-content: space-betweence;
-  align-items: center;  
-  margin-bottom: 16px;   
-  box-shadow: 10px 10px 18px -2px rgb(60, 31, 7);
+  align-items: center;
+  margin-bottom: 16px;
+  box-shadow: 0 0 40px rgb(2, 70, 69);
   border-radius: 10px;
-  background: linear-gradient(141.22deg, #ffc226 9.4%, #f84119 91.91%);
+  background: linear-gradient(141.22deg, #a4f0f4 9.4%, #038faf 91.91%);
   text-shadow: 0 0.4px 0.4px #fff;
- 
 }
 .active {
   color: brown;
 }
-
-
-
-
