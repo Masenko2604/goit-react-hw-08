@@ -4,11 +4,11 @@ body {
   flex-direction: column;
   align-content: center;
   align-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  /* min-width: 320px;
+  min-height: 100vh; */
   background-image: linear-gradient(rgba(181, 239, 229, 0.1), rgba(181, 239, 229, 0.1)),
     url(../src/images/phon.jpg);
-  max-width: 100%;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
