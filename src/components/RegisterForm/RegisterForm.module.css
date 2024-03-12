@@ -14,33 +14,14 @@
 
 }
 
-
-
-/* .form {
-  height: 420px;
-  width: 400px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 30%;
-  left: 20%;
-  border-radius: 10px;
-  backdrop-filter: blur(10px);
-  border: 2px solid rgba(8, 79, 87, 0.1);
-  box-shadow: 0 0 40px rgba(4, 71, 81, 0.6);
-  padding: 50px 35px;
-  margin-top: 40px;
-  text-shadow: 0 0.4px 0.4px #fff;
-  
-} */
-
 .label {
   display: block;
-  /* margin-top: 15px; */
   font-size: 16px;
   font-weight: 300;
   width: 100%;
   padding-top: 15px;
 }
+
 .input {
  display: block;
  height: 35px;
