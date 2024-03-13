@@ -17,7 +17,7 @@ h1 {
   line-height: 1.1;
   color: rgb(253, 252, 250);
   display: flex;
-  /* justify-content: center; */
+ 
 }
 .label {
   background-color: rgb(255, 255, 255);
