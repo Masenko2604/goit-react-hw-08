@@ -10,7 +10,7 @@ export default function HomePage() {
       </div>
       <>
         <div>
-          <h1>Welcome to phonebook!</h1>
+          <h1>Welcome to the phone book!</h1>
           <h2>Please log in to your account or register.</h2>
         </div>
       </>
